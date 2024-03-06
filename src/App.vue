@@ -165,7 +165,7 @@ html {
     margin: 0;
   }
   .controls {
-    padding-top: 12.5%;
+    padding-top: 91px;
     margin-right: 10px;
   }
   .poem__body {
@@ -174,25 +174,30 @@ html {
 }
 
 /* Настройка размера текста для экранов шириной до 8000px */
-@media screen and (min-width: 1200px) {
-  html {
-    font-size: 20px;
-  }
-}
 
 /* Дополнительные настройки размера текста для других размеров экрана */
 @media screen and (min-width: 1600px) {
   html {
     font-size: 24px;
   }
+  .controls {
+    padding-top: 15.5%;
+    margin-right: 25px;
+  }
+  .flex-container {
+    column-gap: 70px;
+  }
 }
 @media screen and (min-width: 2400px) {
+  .container {
+    max-width: 1600px;
+  }
   html {
     font-size: 34px;
   }
   .controls {
     padding-top: 18.5%;
-    margin-right: 20px;
+    margin-right: 30px;
   }
 }
 @media screen and (min-width: 3600px) {
@@ -226,6 +231,7 @@ html {
   .controls {
     padding-top: 24.5%;
     column-gap: 48px;
+    margin-right: 40px;
   }
   .poem__body {
     min-width: 1500px;
@@ -242,6 +248,7 @@ html {
   .controls {
     column-gap: 52px;
     padding-top: 26.5%;
+    margin-right: 60px;
   }
 }
 @media screen and (min-width: 6600px) {
