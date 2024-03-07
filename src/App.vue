@@ -3,7 +3,7 @@
     <div class="poem">
       <div class="controls">
         <button
-          v-for="(_, index) in buttons"
+          v-for="(_, index) in quatrains"
           :key="index"
           @click="toggleQuatrain(index)"
           :class="{ active: activeButtons.includes(index) }"
@@ -33,7 +33,6 @@ export default {
 
   data() {
     return {
-      buttons: new Array(4),
       activeButtons: [],
       quatrains: [
         [
@@ -59,6 +58,18 @@ export default {
           "How charged with punishments the scroll,",
           "I am the master of my fate,",
           "I am the captain of my soul.",
+        ],
+        [
+          "Out of the night that covers me,",
+          "Black as the pit from pole to pole,",
+          "I thank whatever gods may be",
+          "For my unconquerable soul.",
+        ],
+        [
+          "Out of the night that covers me,",
+          "Black as the pit from pole to pole,",
+          "I thank whatever gods may be",
+          "For my unconquerable soul.",
         ],
       ],
     };
