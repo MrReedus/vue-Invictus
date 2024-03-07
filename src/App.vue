@@ -59,18 +59,6 @@ export default {
           "I am the master of my fate,",
           "I am the captain of my soul.",
         ],
-        [
-          "Out of the night that covers me,",
-          "Black as the pit from pole to pole,",
-          "I thank whatever gods may be",
-          "For my unconquerable soul.",
-        ],
-        [
-          "Out of the night that covers me,",
-          "Black as the pit from pole to pole,",
-          "I thank whatever gods may be",
-          "For my unconquerable soul.",
-        ],
       ],
     };
   },
